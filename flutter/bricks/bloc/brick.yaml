@@ -2,26 +2,22 @@ name: bloc
 description: A new brick to create new Bloc.
 version: 1.0.0
 vars:
-  - path
-  - name
-  - events
-  - states
-  # path:
-  #   type: string
-  #   description: 'Where to put the bloc'
-  #   prompt: Where to put the bloc?
-  # name:
-  #   type: string
-  #   description: 'Bloc Name'
-  #   prompt: What is the Bloc Name?
-  # events:
-  #   type: string
-  #   description: 'JSON Array of event ([{"str": "List"}, {"str": "Detail"}])'
-  #   default: '[]'
-  #   prompt: What is the list of event?
-  # states:
-  #   type: string
-  #   description: 'JSON Array of state ([{"str": "Processing"}, {"str": "Failed"}, {"str": "Success"}])'
-  #   default: '[]'
-  #   prompt: What is the list of state?
+  path:
+    type: string
+    description: 'Where to put the bloc'
+    prompt: Where to put the bloc?
+  name:
+    type: string
+    description: 'Bloc Name'
+    prompt: What is the Bloc Name?
+  events:
+    type: string
+    description: 'JSON Array of event ([{"str": "List"}, {"str": "Detail"}])'
+    default: '[]'
+    prompt: What is the list of event?
+  states:
+    type: string
+    description: 'JSON Array of state ([{"str": "Processing"}, {"str": "Failed"}, {"str": "Success"}])'
+    default: '[]'
+    prompt: What is the list of state?
   

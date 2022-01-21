@@ -2,14 +2,12 @@ name: loop
 description: A new brick to create multiple files.
 version: 1.0.0
 vars:
-  - path
-  - names
-  # path:
-  #   type: string
-  #   description: 'Where to put the files'
-  #   prompt: Where to put the files?
-  # events:
-  #   type: string
-  #   description: 'JSON Array of file names ([{"str": "List"}, {"str": "Detail"}])'
-  #   default: '[]'
-  #   prompt: What is the list of file name?
+  path:
+    type: string
+    description: 'Where to put the files'
+    prompt: Where to put the files?
+  names:
+    type: string
+    description: 'JSON Array of file names ([{"str": "List"}, {"str": "Detail"}])'
+    default: '[]'
+    prompt: What is the list of file name?
